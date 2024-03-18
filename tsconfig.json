@@ -11,8 +11,12 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "allowJs": true,
     "moduleResolution": "node",
-    "lib": ["es6"]
+    "lib": ["ESNext"],
+    "rootDir": "src",
+    "outDir": "dist",
   },
-  "files": ["index.d.ts"]
+  "include": ["src/**/*.ts","src/**/*.d.ts","src/**/*.js"],
 }

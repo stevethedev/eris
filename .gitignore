@@ -1,6 +1,7 @@
 .DS_Store
 .vscode
 docgen
+dist
 docs
 node_modules
 test
